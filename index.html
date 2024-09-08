@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Electrónicos MENSAJE futurista</title>
+    <meta name="description" content="Compra los mejores equipos electrónicos de computo.">
+    <meta name="keywords" content="electrónicos, computadoras, venta, tecnología">
+    <meta name="author" content="Guss Valdez">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tienda de Electrónicos HI*Future</h1>
+            <nav>
+                <a href="#home">Inicio</a>
+                <a href="#productos">Productos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        <section id="home">
+            <h2>Bienvenido a nuestra tienda</h2>
+            <p>En nuestra tienda ofrecemos una amplia gama de equipos electrónicos de computo. Desde computadoras portátiles / Computadoras de Escritorio. Hasta accesorios y componentes. ¡Encuentra lo que necesitas con facilidad y confianza!</p>
+            <img src="EQUIPOGENERAL.JPG" alt="Computadora portátil">
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <ul>
+                <li><strong>Computadoras Portátiles:</strong> Equipos de alto rendimiento para todas tus necesidades.</li>
+                <li><strong>Componentes:</strong> Procesadores, memorias RAM, discos duros y más.</li>
+                <li><strong>Accesorios:</strong> Teclados, ratones, fundas y más.</li>
+            </ul>
+            <img src="COMPONENTES.JPG" alt="Componentes de computo">
+        </section>
+        <section id="Que incluye un computadora portatil nueva">
+            <h1>Que incluye un nuevo equipo portatil al COMPRARLO</h1>
+            <ol>
+                <li>instalacion en sitio</li>
+                <li>Se le regala un poster futurista, sobre los equipos que se usaran en ano 2042</li>
+                <li>se regala una simualador arcade con 100 juegos gratis</li>
+                <li>portal laptop, incluido</li>
+                <li>mouse inalambrico</li>
+            </ol>
+           
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta o necesitas asistencia, por favor completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+            <form action="enviar_contacto.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Electrónicos HIFuture. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
